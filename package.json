@@ -1,15 +1,25 @@
 {
-  "name": "learn-starter",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "^11.0.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  }
+	"name": "realtime-chat",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"server:start": "",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"next": "^11.0.0",
+		"primeicons": "^4.1.0",
+		"primereact": "^6.6.0",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"react-transition-group": "^4.4.2",
+		"socket.io": "^4.3.1",
+		"socket.io-client": "^4.3.2"
+	},
+	"devDependencies": {
+		"prettier": "^2.4.1"
+	}
 }
