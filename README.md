@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# realtime-chat-next
+
+Chat app with `Next.js` and `Socket.io`.
